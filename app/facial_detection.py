@@ -3,7 +3,7 @@ import cv2
 
 def capture_video():
     # Initialize the webcam
-    cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+    cap = cv2.VideoCapture(1)
 
     if not cap.isOpened():
         print("Error: Could not open webcam.")
